@@ -1,0 +1,279 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin:0;
+}
+
+.navigation {
+    background-color: #F6F9F9;
+    padding:25px 100px;
+    display: block;
+    height: 80px;
+    background-image: url(../img/timberLineLodge.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: fill;
+}
+
+.navigation img {
+    height: 75px;
+    width: 60px;
+}
+
+.navigation h3 {
+    display: inline;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    position: absolute;
+    color: black;
+    font-family: 'Spectral SC', serif;
+    margin-top: 50px;
+}
+
+
+/** call to action section **/
+#cta {
+    background-image: url(../img/johnny.jpg);
+    height: 800px;
+    text-align: center;
+}
+
+#cta h1 {
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 47px;
+    margin-bottom: 150px;
+    margin-top: 0;
+    padding-top: 45px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+
+}
+
+#cta hr {
+    border-color: black;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#cta h2 {
+    color: black;
+    font-size: 20px; 
+    font-weight: 400;
+    line-height: 47px; 
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+#cta button {
+    background-color: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+    border-top: 1px solid #15a4fa;
+    border-left: 1px solid #15a4fa;
+    border-radius: 2px;
+    color: black;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+#cta a {
+    color: #fff;
+    display: inline-block;
+    margin-top: 100px;  
+}
+
+/*info section*/
+#info {
+    background-color: #F6F9F9;
+    padding:50px;
+    text-align: center;
+}
+
+#info h1 {
+    color:  #2d3950;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#info p {
+    color:  #999999;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0 auto;
+    width:74%;
+}
+
+/*features section*/
+#features {
+    text-align: center;
+}
+
+#features .box {
+    display: inline-block;
+    font-weight: 400;
+    margin: 5% 1%;
+    padding:10px;
+    width: 21%;
+}
+
+#features .iconBox{
+    background: linear-gradient(to right,  #1e5799 0%, #207cca 50%, #2989d8 50%, #7db9e8 100%);
+    height: 100px;
+    margin: 0 auto;
+    width: 100px;
+}
+
+#features i {
+    color: #fff;
+    display: block;
+    font-size: 40px;
+    padding-top: 25px;
+    width: 100%;
+}
+
+#features h3 {
+    color: #2d3950;
+    font-size: 22px;
+    margin-bottom: 3%;
+}
+
+#features p {
+    color: #999999;
+    font-size: 15px; 
+    font-weight: 400;
+    line-height: 22px; 
+}
+
+.fa-mobile {
+    font-size: 55px;
+}   
+
+.fa-paper-plane-o {
+    padding-top: 30px;
+}
+
+.fa-bullhorn {
+    font-size: 50px;
+}
+
+/*work section*/
+#work {
+    background-color: #f6f9f9;
+    font-weight: 400;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#work h3 {
+    color: #2d3950;
+    font-size: 41px; 
+    margin:0;
+}
+
+#work p {
+    color: #909090;
+    font-size: 15px; 
+    line-height: 23px; 
+    text-align: center;
+}
+
+#work .box {
+    display: inline-block;
+    font-weight: 400;
+    margin: 2% 1% 0%;
+    padding:10px;
+    width: 25%;
+}
+
+#work img {
+    background-color: red;  
+    height: 100%;
+    width:100%;
+}
+
+/*contact section*/
+#contact {
+    background-image: url(../img/maze.jpg);
+    background-position: 50%;
+    height: 500px;
+    padding: 100px;
+    text-align: center;
+}
+
+#contact h3 {
+    color:  #ffffff;
+    font-size: 41px;
+    font-weight: 400;
+    margin: 7% 0 0;
+}
+
+#contact p {
+    color: #999999;
+    font-size: 15px; 
+    font-weight: 400;
+    line-height: 23px;
+}
+
+form > input,
+form > textarea {
+    background-color: transparent;
+    border-radius: 2px;
+    border: 1px solid #f6f9f9;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    margin: 10px auto;
+    padding: 10px;
+    width: 30%;
+}
+
+form span {
+    color:  #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form button {
+    background-color: transparent;
+    border: 1px solid #15a4fa;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    margin: 25px 0 0 50px;
+    padding: 10px 25px; 
+}
+
+/*footer*/
+.footer {
+    background-color: #F6F9F9;
+    padding: 10px;
+    height: 50px;
+    padding-left:50px;
+}
+
+.footer p {
+    float: left;
+    margin-left: 75px;
+}
+
+#socialMedia {
+    float: right;
+    margin: 20px 75px 0 0;
+}
+
+#socialMedia a {
+    border-radius: 2px;
+    background-color:  #15a4fa;
+    color: white;
+    margin: 5px;
+    padding: 7px;
+    text-decoration: none;  
+}
+
+#socialMedia a:first-child {
+    padding: 7px 9px;
+}
