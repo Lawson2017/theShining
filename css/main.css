@@ -42,14 +42,16 @@ body {
 
 #cta h1 {
     color: #ffffff;
-    font-size: 80px;
+    font-size: 65px;
     font-weight: 700;
     line-height: 47px;
     margin-bottom: 225px;
     margin-top: 0;
-    padding-top: 45px;
+    padding-top: 40px;
     text-align: center;
     font-family: 'Cinzel', serif;
+    text-decoration: underline overline;
+
 
 }
 
@@ -245,6 +247,16 @@ form button {
     cursor: pointer;
     margin: 25px 0 0 50px;
     padding: 10px 25px; 
+}
+
+::-webkit-input-placeholder {
+    color: hsl(0, 12%, 97%);
+    font-weight: lighter;   
+}
+
+input[type="checkbox"]{
+  margin-right: 20px;
+  size: 20px 20px;
 }
 
 /*footer*/
